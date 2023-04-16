@@ -2,7 +2,7 @@
 SDN controller implementation for SDN usecase based on Floodlight and OpenFlow protocol
 
 
-# PacketForwarder.java
+# PacketRedirectController.java
 Main class to read the `packet_in` message and process it
 
 Then it creates the `Match` and `Action` from the content of `Packet_IN` message
